@@ -1,0 +1,23 @@
+{
+  "name": "personal-info",
+  "version": "1.0.0",
+  "homepage":"https://sksvns.github.io/my-info",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy":"yarn build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "yarn": "^1.17.3"
+  }
+}
